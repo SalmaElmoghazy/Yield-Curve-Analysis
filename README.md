@@ -12,7 +12,9 @@ For this analysis, I used various Canadian government bond spot rates from 0.25 
 
 ```math
 PC1 = constant ≈ long term interest rate ≈ R*
+
 PC2 = slope ≈ term premium
+
 PC3 = curvature
 ```
 
