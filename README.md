@@ -8,7 +8,7 @@ This repository provides tools to analyze and visualize the yield curve for Cana
 - <b>3D Yield Curve:</b> Generate a 3D plot of the yield curve over time.
 - <b>Principal Component Analysis (PCA):</b> Perform PCA on the yield curve data to identify the main components driving the changes in the yield curve over time.
 
-For this analysis I will use various UK government bond spot rates from 0.5 years up to 10 years to maturity (provided by the Bank of England), to see if we can model the yield curve and its slope. When finding the principal components of the yield curve, the main theory held by econometricians is that:
+For this analysis, I used various Canadian government bond spot rates from 0.25 years up to 10 years to maturity (provided by the Bank of Canada), to see if we can model the yield curve and its slope. When finding the principal components of the yield curve, the main theory held by econometricians is that:
 
     PC1 = constant ≈ long term interest rate ≈ R*
     PC2 = slope ≈ term premium
