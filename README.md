@@ -10,11 +10,11 @@ This repository provides tools to analyze and visualize the yield curve for Cana
 
 For this analysis, I used various Canadian government bond spot rates from 0.25 years up to 10 years to maturity (provided by the Bank of Canada), to see if we can model the yield curve and its slope. When finding the principal components of the yield curve, the main theory held by econometricians is that:
 
-$$PC1 = constant ≈ long term interest rate ≈ R*$$
+$$\begin{align}PC1 = constant ≈ long term interest rate ≈ R*\end{align}$$\
 
-$$PC2 = slope ≈ term premium$$
+$$\begin{align}PC2 = slope ≈ term premium\end{align}$$
 
-$$PC3 = curvature$$
+$$\begin{align}PC3 = curvature\end{align}$$
 
 
 ## Required Packages
